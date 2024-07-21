@@ -1,0 +1,43 @@
+ #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+
+.App ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.App li {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 10px;
+}
+
+.App li input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: yellow;
+}
+
+.App li span {
+  flex-grow: 1; 
+}
+
+.App li button {
+  margin-left: 100px; 
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.App li button:hover {
+  background-color: darkred;
+}
+h1{
+  font-size: 100px;
+}
